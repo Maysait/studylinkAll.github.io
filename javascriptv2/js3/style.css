@@ -1,0 +1,37 @@
+.add_form{
+    width: 30%;
+    height: 450px;
+    margin-left: 35%;
+    margin-top: 100px;
+    background-color: rgba(237, 237, 237, 0);
+    box-shadow: 0px 0px 10px yellow;
+}
+body{
+    margin: 0;
+    font-family: 'Righteous', cursive;
+    background-image: url(bg.jpg);
+    background-size: 100% 100%;
+}
+input{
+    width: 40px;
+    transition: width 0.5s linear;
+    padding: 5px;
+}
+input:focus{
+    width: 200px;
+}
+form{
+    color: blueviolet;
+    font-size: 16px;
+    padding: 40px;
+    font-family: 'Righteous', cursive;
+}
+button{
+    padding: 7px;
+    background-color: aqua;
+    color: white;
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
+    border: 0;
+    border-radius: 10px;
+}

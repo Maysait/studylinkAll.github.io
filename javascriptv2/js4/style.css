@@ -1,0 +1,19 @@
+th{
+    border-bottom: 1px solid gray;
+}
+thead{
+    background-color: aquamarine;
+}
+.edit,.delete{
+   padding: 7px;
+   border-radius: 5px;
+   color: white;
+   border: 0;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.edit{
+    background-color: orange;
+}
+.delete{
+    background-color: red;
+}

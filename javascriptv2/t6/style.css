@@ -1,0 +1,47 @@
+.article{
+    border: 2px dashed gray;
+    border-radius: 20px;
+    width: 50%;
+    padding: 10px;
+    background-color: antiquewhite;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+}
+.article:hover{
+    box-shadow: 0px 0px 10px 2px gray;
+}
+
+.main{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 80px;
+    border-left: 2px solid grey;
+    border-right: 2px solid grey;
+    height: 600px;
+    background-color: rgba(178, 178, 178, 0.159);
+    padding: 20px 40px;
+    
+}
+.body{
+    background-image: url(https://libertycity.ru/uploads/gallery/main/28/gallery96_3.jpg);
+    background-size: 100%;
+    background-position: fixed;
+}
+.title{
+    border-left:  2px solid white;
+    border-bottom: 2px solid white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+}
+.text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+    font-size: 23px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;background-color: blueviolet;
+    padding: 6px;
+    border-radius: 5px;
+}

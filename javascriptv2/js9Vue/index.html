@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+
+    <div id="vue">
+        {{ text }}
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1>Це заголовок</h1>
+        <p>Ти вже клікнув - {{ clicks }}</p>
+        <button v-on:click="clicksFarm">Клікни на мене</button>
+        <br><br><br><br><br><br>
+        <p v-for="people in users">
+            <b>імЯ</b> {{people.name}}
+            <br>
+            <b>прізвище</b> {{people.lastname}}
+            <br>
+            <b>пошта</b> {{people.email}}
+            <br>
+            <b>телефон</b> {{people.phone}}
+            <br>
+        </p>
+
+        <p v-for="text in articles">
+            <b>Article</b> {{text.article}}
+            <br>
+            <b>author</b> {{text.author}}
+            <br>
+            <b>title</b> {{text.title}}
+            <br>
+        </p>
+
+    </div>
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <script src="../firebase/firebase.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

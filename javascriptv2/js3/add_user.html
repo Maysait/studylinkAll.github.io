@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 align="center">Додавання нового користувача</h1>
+    <div class="add_form">
+    <form action="">
+        
+        <laber name="name">Веддіть імя</laber><br>
+        <input type="text" name="name" id="user_name">
+        <br><br>
+        <laber name="lastname">Веддіть прізвище</laber><br>
+        <input type="text" name="lastname" id="user_lastname">
+        <br><br>
+        <laber name="email">Веддіть емейл</laber><br>
+        <input type="text" name="email" id="user_email">
+        <br><br>
+        <laber name="pass">Веддіть пароль</laber><br>
+        <input type="text" name="pass" id="user_password">
+        <br>
+        <p align="right"><button onclick="add_user()">Додати</button></p>
+    </form>
+</div>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+<script src="add_user.js"></script></script:>
+</body>
+</html>
